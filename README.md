@@ -22,11 +22,12 @@ modified or deleted**, eliminating the risk of data loss.
 ```
 ┌──────────┐ ┌──────────────────┐ ┌──────────────┐
 │ User │ ──▶ │ Enter master │ ──▶ │ Pick files │
-│ │ │ password │ │ │
+                                         ▼
+                                    │ password │ 
 └──────────┘ └──────────────────┘ └──────┬────────┘
-│
+                             ┌───────────┘
 ┌────────────────────────────▼────────────────────────────┐
-│ For each file: │
+│ For each file: │    
 │ 1. Generate random salt (Scrypt, N=2¹⁴) │
 │ 2. Derive encryption key from salt + password │
 │ 3. Encrypt file using Fernet (AES-128-CBC + HMAC) │
