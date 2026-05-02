@@ -3,7 +3,7 @@ name: Build Windows Executable
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:  # Позволяет запускать вручную
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,11 +25,11 @@ jobs:
     
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile --windowed --name "KrabbFileCrypt" krabb-filecrypt-safe.py
+        python -m PyInstaller --onefile --windowed --name "KrabbFileCrypt" krabb-filecrypt-safe.py
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: KrabbFileCrypt_Windows10|11_64
-        path: dist/krabb-filecrypt-safe.exe
-        retention-days: 30  # Хранить артефакт 30 дней
+        name: KrabbFileCrypt-Windows
+        path: dist/KrabbFileCrypt.exe
+        retention-days: 30
