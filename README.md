@@ -34,6 +34,17 @@ modified or deleted**, eliminating the risk of data loss.
 │ 5. ORIGINAL FILE IS LEFT UNTOUCHED │
 └─────────────────────────────────────────────────────────┘
 ```
+
+## 📋 Requirements
+
+### Windows 10/11 (64-bit)
+
+### Linux
+- glibc 2.39+
+#### To see glibc version
+``` bash
+ldd --version
+```
 ## 🚀 Quick Start
 
 ### Option 1: Run from source
