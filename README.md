@@ -51,7 +51,7 @@ ldd --version
 ### Option 1: Run from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/filecrypt-safe.git
+git clone https://github.com/xl3p/filecrypt-safe.git
 cd filecrypt-safe
 pip install -r requirements.txt
 python main.py
