@@ -48,7 +48,7 @@ ldd --version
 ```
 ## 🚀 Quick Start
 
-### Option 1: Run from source
+### Option 1: Run from source (for developer)
 
 ```bash
 git clone https://github.com/xl3p/krabb-filecrypt-safe.git
