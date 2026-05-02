@@ -34,7 +34,7 @@ jobs:
     
     - name: Build executable
       run: |
-        pyinstaller --onefile --windowed --name "KrabbFileCrypt" krabb-filecrypt-safe.py
+        pyinstaller --onefile --windowed --name "KrabbFileCrypt" main.py
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4
