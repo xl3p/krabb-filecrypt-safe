@@ -1,5 +1,16 @@
 # 🔐 FileCrypt Safe
 
+
+
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![Flet](https://img.shields.io/badge/Flet-Flutter--like_GUI-00599C?logo=python&logoColor=white)](https://flet.dev)
+[![Fernet](https://img.shields.io/badge/Fernet-AES--128--CBC_%2B_HMAC-8B0000?logo=python&logoColor=white)](https://cryptography.io/en/latest/fernet/)
+[![Scrypt](https://img.shields.io/badge/Scrypt-KDF_N%3D2¹⁴_r%3D8_p%3D1-6A0DAD?logo=python&logoColor=white)](https://docs.python.org/3/library/hashlib.html)
+[![Argon2](https://img.shields.io/badge/Argon2-argon2--cffi-FF6F00?logo=python&logoColor=white)](https://argon2-cffi.readthedocs.io)
+[![Platform](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows&logoColor=white)](https://www.microsoft.com/en-us/windows)
+[![Platform](https://img.shields.io/badge/Linux-glibc%202.39+-FCC624?logo=linux&logoColor=black)](https://rus-linux.net/MyLDP/algol/glibc-version.html)
+
+
 **A secure file encryption utility that preserves original files.**
 
 A desktop application with a graphical interface built on Flet.
